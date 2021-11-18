@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 40%;
+            height: auto;
+            display: block;
+        }
+        body{
+            margin: 0;
+            width: 100vw;
+            height: 100vh;
+        }
+        main{
+            width: 100%;
+            min-height: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .filter{
+            min-width: 100vw;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .filter1{filter: blur(2px); }
+        .filter2{filter: brightness(.5)}
+        .filter3{filter: contrast(70%);}
+        .filter4{filter: drop-shadow(3px 3px 3px rgb(248, 0, 0));}
+        .filter5{filter: grayscale(.7)}
+        .filter6{filter: hue-rotate(180deg);}
+    </style>
+</head>
+<body>
+    <a href="index.html">inicio</a>
+    <main>
+        <section class="filter filter1"><img src="./animales/pexels-flickr-146083.jpg" alt="hola"></section>
+        <section class="filter filter2"><img src="./animales/pexels-francesco-ungaro-1918218.jpg" alt="hola"></section>
+        <section class="filter filter3"><img src="./animales/pexels-helena-lopes-1931370.jpg" alt="hola"></section>
+        <section class="filter filter4"><img src="./animales/Planta_06.png" alt="hola"></section>
+        <section class="filter filter5"><img src="./animales/pexels-jean-van-der-meulen-1526410.jpg" alt="hola"></section>
+        <section class="filter filter6"><img src="./animales/pexels-jos-van-ouwerkerk-1617294.jpg" alt="hola"></section>
+        <section class="filter filter7"><img src="./animales/pexels-lina-kivaka-1741205.jpg" alt=""></section>
+        <section class="filter filter8"><img src="./animales/pexels-mark-broadhurst-106685.jpg" alt="hola"></section>
+        <section class="filter filter9"><img src="./animales/pexels-pixabay-57416.jpg" alt=""></section>
+        <section class="filter filter10"><img src="./animales/pexels-steshka-willems-1390361.jpg" alt="hola"></section> 
+    </main>
+</body>
+</html>

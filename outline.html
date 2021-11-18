@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        main{
+            width: 100vw;
+            height: 100vh;
+            display: flex;  
+            flex-direction: column; 
+            flex-wrap: nowrap   ;        
+            justify-content: space-around;
+            align-items: center ;
+
+        }   
+        div{           
+            background-color:violet;
+            width: 10rem;
+            height: 10rem;
+            outline: 1px solid peru;
+            outline-offset: 10px;
+        }
+        div:nth-child(2){
+            border: red thick double;
+        }
+        div:nth-child(3){
+            outline: 1px hidden red;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">inicio</a>
+    <main class="container">
+        <div></div>
+        <div></div>
+        <div></div>
+    </main>
+</body>
+</html>
